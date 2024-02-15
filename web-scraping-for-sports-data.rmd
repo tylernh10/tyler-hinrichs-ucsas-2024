@@ -1,0 +1,26 @@
+---
+title: "Web Scraping for Sports Data"
+author: Tyler Hinrichs
+output: ioslides_presentation
+---
+
+# Web Scraping Pipeline
+
+## Web Scraping
+
+-   Placeholder 1
+-   Placeholder 2
+
+# Static Web Scraping
+
+## Using Pandas, Requests, and BeautifulSoup
+
+-   Placeholder 1
+-   Placeholder 2
+
+# Dynamic Web Scraping
+
+## Selenium
+
+-   Placeholder 1
+-   Placeholder 2
