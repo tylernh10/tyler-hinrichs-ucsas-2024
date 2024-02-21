@@ -5,14 +5,33 @@ output:
   ioslides_presentation:
 ---
 
-# Web Scraping Pipeline
+# What is Web Scraping?
 
-## Web Scraping
+## Web Scraping Background
 
--   Placeholder 1
-    -   Placeholder 2
-    -   Test
-        - Test2
+-   **Web scraping**: programmatically gathering data from web-based sources
+- Premade datasets:
+    - Kaggle, GitHub, data.gov, etc.
+    - May or may not contain what you need
+- Websites contain **huge amounts of data**
+    - Format is a barrier of access
+    - Data displayed in UI
+        - Elements of complex webpages
+- Web scraping used to **unpack data from webpages**
+
+## Why Web Scraping is Useful
+<img src="images/pl-tables.png" width="450"/>
+<div style="height: 25px;"></div>
+<img src="images/pl-tables-html.png" width="450"/>
+
+## Static vs. Dynamic
+- Static webpages:
+    - Content will not change
+- Dynamic webpages:
+    - Content can be altered, loaded, etc. with JavaScript
+    - Common with modern websites
+- Methods to interact with both kinds
+- Combination of both can be used
 
 # Static Web Scraping
 
