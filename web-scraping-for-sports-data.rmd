@@ -2,7 +2,7 @@
 title: "Web Scraping for Sports Data"
 author: Tyler Hinrichs
 output: 
-  ioslides_presentation:
+  ioslides_presentation
 ---
 
 # What is Web Scraping?
