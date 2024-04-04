@@ -27,6 +27,3 @@ If you want to start analyzing sports, you need data. Nowadays, there are many s
 ### Slides
 - Have been created using rmarkdown
 - Access through the .rmd file (need R to run) or through the html file
-
-### Other Information:
-
