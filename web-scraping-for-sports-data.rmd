@@ -2,7 +2,8 @@
 title: "Web Scraping for Sports Data"
 author: Tyler Hinrichs
 output: 
-  ioslides_presentation
+  ioslides_presentation:
+    widescreen: true
 ---
 
 ## Table of Contents
