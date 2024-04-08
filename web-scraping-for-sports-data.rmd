@@ -5,26 +5,56 @@ output:
   ioslides_presentation
 ---
 
-# What is Web Scraping?
+## Table of Contents
+Web Scraping Background
 
-## Web Scraping Background
+  - Data Science Pipeline
+  - HTML, CSS, and the DOM
+  - Static vs. Dynamic Web Scraping
+  
+Static Web Scraping
 
+- Using Requests
+- Using BeautifulSoup
+- Using Pandas
+
+## Table of Contents
+Dynamic Web Scraping
+
+  - Selenium
+  - Retrieving Data with Selenium
+  - Introduction to Advanced Selenium Topics
+
+<h1>Demos throughout - web scraping Premier League soccer data!</h1>
+
+# Web Scraping Background
+
+## What is Web Scraping?
 -   **Web scraping**: programmatically gathering data from web-based sources
 - Premade datasets:
     - Kaggle, GitHub, data.gov, etc.
     - May or may not contain what you need
-- Websites contain **huge amounts of data**
+- Websites have untapped data!
     - Format is a barrier of access
     - Data displayed in UI
-        - Elements of complex webpages
-- Web scraping used to **unpack data from webpages**
+- Web scraping used to **extract data from webpages**
+    - Solving *how* we will access data stored on complex web pages
 
-## Why Web Scraping is Useful
-<img src="images/pl-tables.png" width="450"/>
-<div style="height: 25px;"></div>
-<img src="images/pl-tables-html.png" width="450"/>
+## Data Science Pipeline
+- High level: where are we?
+- After question stage, we must find data, then wrangle it
+    - **Wrangling data:** gathering raw data and making it suitable to our question
 
-## Static vs. Dynamic
+<img src="images/datasci_pipeline.png" width="450"/>
+
+## HTML, CSS, and the DOM
+- **Document Object Model (DOM):** A **hierarchical structure of a web page** allowing for a standardized way of interaction from a programming language
+- **HTML (HyperText Markup Language):** A markup language used to **structure** most modern webpages
+- **CSS (Cascading Style Sheets):** A stylesheets language used to **style** documents in markup language
+
+<img src="images/html-css.png" width="600"/>
+
+## Static vs. Dynamic Web Scraping
 - Static webpages:
     - Content will not change
 - Dynamic webpages:
@@ -32,6 +62,16 @@ output:
     - Common with modern websites
 - Methods to interact with both kinds
 - Combination of both can be used
+
+## Our Web Scraping Process
+- Through Python:
+    - Interact with HTML
+        - Static: pull HTML all at once
+        - Dynamic: communicate with live browser instance
+    - Extract data based on DOM
+    - Compile into dataset and save
+
+<img src="images/static-web-scraping.jpg" width="425"/>
 
 # Static Web Scraping
 
@@ -72,7 +112,7 @@ output:
 
 <img src="images/document-object-model.png" width="350"/>
 
-## Accessing Elements with BeautifulSoup
+## Using BeautifulSoup
 - Pass HTML into html.parser
 - soup_object.tag
 - Navigating down: accessing elements' children
@@ -117,10 +157,22 @@ output:
 - Expected conditions
 - ActionChains
 
+# Legality of Web Scraping
+
+## robots.txt
+- Document that defines what is and what is not allowed to be scraped off a web page
+- Find through typing in <base_url>/robots.txt
+    - https://uconn.edu/robots.txt
+    - https://www.linkedin.com/robots.txt
+
+<img src="images/linkedin-robots.png" width="450"/>
+
 ## Resources
 - requests: https://requests.readthedocs.io/en/latest/
 - Beautiful Soup 4: https://beautiful-soup-4.readthedocs.io/en/latest/
 - pandas: https://pandas.pydata.org/docs/
-- Document Object Model (DOM) https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+- Document Object Model (DOM):  https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+- HTML: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+- CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
 - HTTP: https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests
 - Selenium: https://selenium-python.readthedocs.io/
