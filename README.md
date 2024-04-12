@@ -27,3 +27,14 @@ If you want to start analyzing sports, you need data. Nowadays, there are many s
 ### Slides
 - Have been created using rmarkdown
 - Access through the .rmd file (need R to run) or through the html file
+
+### Resources to learn more
+- requests: https://requests.readthedocs.io/en/latest/
+- Beautiful Soup 4: https://beautiful-soup-4.readthedocs.io/en/latest/
+- pandas: https://pandas.pydata.org/docs/
+- Document Object Model (DOM):  https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+- HTML: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+- CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+- HTTP: https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests
+- Selenium: https://selenium-python.readthedocs.io/
+- Page Object Design Pattern: https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/

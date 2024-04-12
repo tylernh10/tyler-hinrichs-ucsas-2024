@@ -24,7 +24,7 @@ Dynamic Web Scraping
 
   - Selenium
   - Retrieving Data with Selenium
-  - Introduction to Advanced Selenium Topics
+  - Page Object Design Pattern
 
 <h1>Demos throughout - web scraping Premier League soccer data!</h1>
 
@@ -158,6 +158,14 @@ Dynamic Web Scraping
 - Expected conditions
 - ActionChains
 
+## Page Object Design Pattern
+- Looking to write neat, organized code w/o repetition
+- Abstract generic page functionality into "Page" class
+- Specific pages inherit from base class w/ specific, unique methods
+- Also used in testing contexts
+
+<img src="images/page-object-model.png" width="450"/>
+
 # Legality of Web Scraping
 
 ## robots.txt
@@ -177,3 +185,4 @@ Dynamic Web Scraping
 - CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
 - HTTP: https://www.ibm.com/docs/en/cics-ts/5.3?topic=protocol-http-requests
 - Selenium: https://selenium-python.readthedocs.io/
+- Page Object Design Pattern: https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
