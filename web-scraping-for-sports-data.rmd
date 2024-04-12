@@ -51,7 +51,7 @@ Dynamic Web Scraping
 ## HTML, CSS, and the DOM
 - **Document Object Model (DOM):** A **hierarchical structure of a web page** allowing for a standardized way of interaction from a programming language
 - **HTML (HyperText Markup Language):** A markup language used to **structure** most modern webpages
-- **CSS (Cascading Style Sheets):** A stylesheets language used to **style** documents in markup language
+- **CSS (Cascading Style Sheets):** A stylesheet language used to **style** documents in markup language
 
 <img src="images/html-css.png" width="600"/>
 
@@ -129,7 +129,7 @@ Dynamic Web Scraping
 
 - We will use briefly here, but it is extremely important for next steps
 - DataFrame: 2-dimensional data structure that holds data similarly to an excel table or a SQL table
-- We will create one for each of our web scraped datasets
+- We will create one for each of our web scraped datasets, and save to CSV
 
 <img src="images/pandas-df.png" width="400"/>
 
@@ -161,7 +161,7 @@ Dynamic Web Scraping
 # Legality of Web Scraping
 
 ## robots.txt
-- Document that defines what is and what is not allowed to be scraped off a web page
+- Document that defines which URLs are allowed or not allowed to be accessed
 - Find through typing in <base_url>/robots.txt
     - https://uconn.edu/robots.txt
     - https://www.linkedin.com/robots.txt
