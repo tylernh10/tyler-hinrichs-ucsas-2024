@@ -162,7 +162,7 @@ Dynamic Web Scraping
 - Looking to write neat, organized code w/o repetition
 - Abstract generic page functionality into "Page" class
 - Specific pages inherit from base class w/ specific, unique methods
-- Also used in testing contexts
+- Also used in testing contexts; works best with extensive scraping tasks, applications, or bots
 
 <img src="images/page-object-model.png" width="450"/>
 
