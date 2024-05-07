@@ -2,6 +2,8 @@
 
 Materials for my workshop at [UCSAS 2024](https://statds.org/events/ucsas2024/index.html)!
 
+**Check back soon for the recording link**
+
 This repository includes some rmarkdown slides used to talk about webscraping, then some .ipynb notebooks to show how we can scrape data from the [English Premier League's website](https://www.premierleague.com/).
 
 **IMPORTANT:** Everything you need for [static_soccer_data.ipynb](https://github.com/tylernh10/tyler-hinrichs-ucsas-2024/blob/main/static_soccer_data.ipynb) is already there in the notebook. For [dynamic_soccer_data.ipynb](https://github.com/tylernh10/tyler-hinrichs-ucsas-2024/blob/main/dynamic_soccer_data.ipynb), you will use Selenium, which has some additional setup required. Please refer to the [section below](#dynamic-data).
